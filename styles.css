@@ -1,0 +1,46 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+pre {
+    background-color: #444;
+    color: #ccc;
+    padding: 10px;
+    border: 1px solid #555;
+    overflow-x: auto;
+}
+
+blockquote {
+    background-color: #555; 
+    color: #ccc;
+    padding: 10px;
+    border-left: 3px solid #3498db;
+    margin: 0;
+}
