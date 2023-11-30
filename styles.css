@@ -31,7 +31,7 @@ h1, h2, h3 {
 
 ul.menu {
     list-style-type: none;
-    max-width: fit-content;
+    max-width: max-content;
 }
 
 ul.menu li {
