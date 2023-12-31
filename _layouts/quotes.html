@@ -1,0 +1,45 @@
+---
+layout: page
+---
+<ul class="free-list">
+    {% for quote in site.quotes %}
+    <li>
+        <a href="#{{ quote.title }}">
+            {{ quote.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+
+<hr>
+
+<ul class="free-list">
+    {% for quote in site.quotes %}
+    <li>
+        <h3 id="{{ quote.title }}" class="quote-title">{{ quote.title }}</h3>
+        <blockquote>
+            <p>{{ quote.content | markdownify }}</p>
+            <cite class="quote-author">- {{ quote.author }}</cite>
+        </blockquote>
+    </li>
+    {% endfor %}
+</ul>
+
+
+<a href="#top">
+    Back to top
+</a>
+
+
+
+<script>
+const headings = document.querySelectorAll('h2[id],h3[id]');
+const linkContent = '🔗';
+for (const heading of headings) {
+    const linkIcon = document.createElement('a');
+    linkIcon.classList.add('anchor');
+    linkIcon.setAttribute('href', `#${heading.id}`);
+    linkIcon.innerHTML = linkContent;
+    heading.appendChild(linkIcon);
+}
+</script>

@@ -1,0 +1,58 @@
+
+$site-title-color: #FF00FF;
+
+$title-color: #FF00FF;
+//$title-color: #00FFFF;
+//$brand-color: #b331ff;
+//$text-color:#00FFFF;
+
+
+
+//$background-color:      #222;
+//$code-background-color: #212121 !default;
+
+$link-base-color: #00FFFF;
+$link-visited-color:    $link-base-color;
+$link-hover-color:      #00a3a3;
+
+$border-color-01:       #6f00ff;
+//$border-color-02:       #80a300;
+//$dm-border-color-03:       $dm-brand-color !default;
+
+//$dm-table-text-color:      $dm-text-color !default;
+//$dm-table-zebra-color:     lighten($dm-background-color, 4%) !default;
+//$dm-table-header-bg-color: lighten($dm-background-color, 10%) !default;
+//$dm-table-header-border:   lighten($dm-background-color, 21%) !default;
+//$dm-table-border-color:    $dm-border-color-01 !default;
+
+hr {
+    color: $border-color-01;
+}
+
+.free-list {
+    list-style: none;
+}
+
+.quote-title {
+    font-size: 20px;
+    //font-weight: bold;
+    color: $title-color;
+    margin-bottom: 10px;
+}
+
+.quote-author {
+    font-size: 12px;
+}
+
+a.anchor {
+    margin-left: 8px;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+  
+a.anchor:hover {
+    text-decoration: none;
+    transform: translateY(-5px); /* Lift the anchor on hover */
+}
+  

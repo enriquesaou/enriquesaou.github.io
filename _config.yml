@@ -1,0 +1,66 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: enriquesaou Blog
+author:
+  name: Enrique
+  email: "enriquesaou@gmail.com"
+description: >- # this means to ignore newlines until "baseurl:"
+  Hey, it's enriquesaou! This is my site and
+  i am writing the description of my site. If you
+  are reading this, i probably still didn't 
+  figure out what should i be describing...
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://enriquesaou.github.io"
+
+header_pages:
+  - index.md
+  - quotes.md
+  - about-me.md
+
+collections:
+  quotes:
+    output: true
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme # to allow having minima v3 (see https://github.com/jekyll/minima/issues/419#issuecomment-558693485)
+  - jekyll-last-modified-at
+
+# to allow having minima v3 (see https://github.com/jekyll/minima/issues/419#issuecomment-558693485)
+remote_theme: jekyll/minima
+
+minima:
+  skin: dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/enriquesaou" }
+    - { platform: twitter, user_url: "https://twitter.com/enriquesaou" }
+    - { platform: linkedin, user_url: "https://linkedin.com/in/enriquesaizoubina"}
+
+show_excerpts: true
+
+# Exclude from processing.
+exclude:
+  - TODO.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
