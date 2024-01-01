@@ -1,5 +1,5 @@
 ---
 layout: quotes
-title: Quotes
+title: "Quotes"
 permalink: /quotes/
 ---

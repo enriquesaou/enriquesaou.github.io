@@ -16,8 +16,8 @@ $link-visited-color:    $link-base-color;
 $link-hover-color:      #00a3a3;
 
 $border-color-01:       #6f00ff;
-//$border-color-02:       #80a300;
-//$dm-border-color-03:       $dm-brand-color !default;
+$border-color-02:       #ff00ff;
+$border-color-03:       #17004d;
 
 //$dm-table-text-color:      $dm-text-color !default;
 //$dm-table-zebra-color:     lighten($dm-background-color, 4%) !default;
@@ -53,6 +53,6 @@ a.anchor {
   
 a.anchor:hover {
     text-decoration: none;
-    transform: translateY(-5px); /* Lift the anchor on hover */
+    transform: translateY(-5px); /* lift anchor on hover */
 }
   
