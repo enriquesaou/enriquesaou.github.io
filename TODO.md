@@ -1,4 +1,4 @@
-- add comment Disqus
+- add comment isso
 - clickable titles?
 - add anchors to posts?
 - .

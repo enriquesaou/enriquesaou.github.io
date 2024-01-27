@@ -34,10 +34,6 @@ collections:
   quotes:
     output: true
 
-
-disqus:
-  shortname: enriquesaou
-
 # Build settings
 markdown: kramdown
 #theme: minima
