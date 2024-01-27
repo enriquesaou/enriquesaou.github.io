@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The closest to Earth"
-date:   2024-27-01T01:05:00+01:00
+date:   2024-01-27T01:05:00+01:00
 ---
 
 With 8 other planets in our Solar System, one may wonder which one is the closest to Earth. At least i sometimes do.
